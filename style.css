@@ -8,14 +8,27 @@
 
 *{
     margin:0;
-    padding:0;
+    padding:2px;
 }
 
-body{
+html{
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
     color: var(--green);
     fill: var(--green);
+}
+
+body{
+    max-height:100vh;
+}
+
+svg{
+    width: 2rem;
+    aspect-ratio: 1;
+}
+
+.layout > div{
+    border: 1px solid black;
 }
 
 
