@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,400;1,300&display=swap');
+:root{
+    --green:#A5B68D;
+    --cream:#EDE8DC;
+    --light-green:#C1CFA1;
+    --pink:#E7CCCC;
+}
+
 *{
     margin:0;
     padding:0;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    color: var(--green);
+    fill: var(--green);
+}
+
+
